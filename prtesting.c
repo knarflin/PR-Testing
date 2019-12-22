@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  printf("prtesting\n");
+  const char str[] = "prtesting";
+  printf("%s\n", str);
   return 0;
 }
